@@ -1,0 +1,5 @@
+Django==1.4.10
+django-jenkins==0.14.1
+lettuce==0.2.19
+selenium==2.39.0
+splinter==0.6.0
