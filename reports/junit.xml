@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<testsuites><testsuite name="django_jenkins.tasks.lettuce_tests.LettuceTestCase"><testcase classname="django_jenkins.tasks.lettuce_tests.LettuceTestCase" name="runTest" time="0.030377"><error message="'module' object has no attribute 'DEFAULT_EXCLUDE'">Traceback (most recent call last):
+<testsuites><testsuite name="django_jenkins.tasks.lettuce_tests.LettuceTestCase"><testcase classname="django_jenkins.tasks.lettuce_tests.LettuceTestCase" name="runTest" time="0.030957"><error message="'module' object has no attribute 'DEFAULT_EXCLUDE'">Traceback (most recent call last):
   File "/home/carlos/.virtualenvs/django/local/lib/python2.7/site-packages/django_jenkins/tasks/lettuce_tests.py", line 64, in runTest
     result = self.runner.run()
   File "/home/carlos/.virtualenvs/django/local/lib/python2.7/site-packages/lettuce/__init__.py", line 137, in run
@@ -11,7 +11,7 @@
   File "/home/carlos/.virtualenvs/django/local/lib/python2.7/site-packages/django_jenkins/tasks/run_pep8.py", line 17, in Task
     default=pep8.DEFAULT_EXCLUDE + ",migrations",
 AttributeError: 'module' object has no attribute 'DEFAULT_EXCLUDE'
-</error></testcase><testcase classname="django_jenkins.tasks.lettuce_tests.LettuceTestCase" name="runTest" time="5.290343"><error message="teardown_environment() takes no arguments (1 given)">Traceback (most recent call last):
+</error></testcase><testcase classname="django_jenkins.tasks.lettuce_tests.LettuceTestCase" name="runTest" time="5.629191"><error message="teardown_environment() takes no arguments (1 given)">Traceback (most recent call last):
   File "/home/carlos/.virtualenvs/django/local/lib/python2.7/site-packages/django_jenkins/tasks/lettuce_tests.py", line 64, in runTest
     result = self.runner.run()
   File "/home/carlos/.virtualenvs/django/local/lib/python2.7/site-packages/lettuce/__init__.py", line 183, in run
